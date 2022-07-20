@@ -32,6 +32,7 @@ resetButton.addEventListener('click', function reset() {
     squares.forEach((square) => {
         square.style.backgroundColor = 'white'
         square.style.border = '1px solid black'
+        window.location.reload() // Temporary fix for resetting grid
     })
 }
 )
