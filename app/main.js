@@ -24,5 +24,6 @@ const squares = document.querySelectorAll('.square')
 squares.forEach((square) => {
     square.addEventListener('mouseover', function changeColor() {
         square.style.backgroundColor = 'black'
+        square.style.border = '1px solid white'
     })
 })
