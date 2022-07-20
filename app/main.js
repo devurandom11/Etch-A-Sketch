@@ -8,12 +8,21 @@ const options = document.querySelector('.options');
 // Create 16x16 grid of squares 
 
 for (let i = 0; i < 4; i++) {
-    const rows = document.createElement('div');
-    rows.classList = 'board-row';
-    gameBoard.appendChild(rows)
+    const row = document.createElement('div');
+    row.classList = 'board-row';
+    gameBoard.appendChild(row)
     for (let j = 0; j < 4; j++) {
-        const squares = document.createElement('div');
-        squares.classList = 'square';
-        rows.appendChild(squares)
+        const square = document.createElement('div');
+        square.classList = 'square';
+        row.appendChild(square)
     }
 }
+
+// Grids change color over hover
+const squares = document.querySelectorAll('.square')
+
+squares.forEach((square) => {
+    square.addEventListener('mouseover', function changeColor() {
+        square.style.backgroundColor = 'black'
+    })
+})

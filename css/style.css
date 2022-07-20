@@ -63,9 +63,10 @@ body {
 }
 
 .square {
-  outline: 1px solid black;
+  outline: 1px solid #000;
   width: 100%;
   height: 100%;
+  background-color: #fff;
 }
 
 .options {
