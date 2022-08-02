@@ -2,107 +2,108 @@
 
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* Main CSS */
 body {
-  font-family: "Poppins", sans-serif;
-  color: #1e1e1e;
+	font-family: 'Poppins', sans-serif;
+	color: #1e1e1e;
 }
 
 .flex-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh;
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .main {
-  display: flex;
-  justify-content: space-between;
-  /* outline: 1px solid #1e1e1e; */
-  min-width: 100%;
-  min-height: 100%;
-  margin: 50px;
-  flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	/* outline: 1px solid #1e1e1e; */
+	min-width: 100%;
+	min-height: 100%;
+	margin: 50px;
+	flex-grow: 1;
 }
 
 .options {
-  outline: 1px solid black;
-  flex: 1;
-  margin: 10px;
-  padding: 10px;
+	outline: 1px solid black;
+	flex: 1;
+	margin: 10px;
+	padding: 10px;
 }
 
 .gameboard {
-  display: flex;
-  flex-direction: column;
-  flex: 0 1 70%;
-  margin: 10px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 70%;
+	margin: 10px;
 }
 
 .board-row {
-  display: flex;
-  flex: 0 1 100%;
+	display: flex;
+	flex: 0 1 100%;
 }
 
 .square {
-  outline: 1px solid #000;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
+	outline: 1px solid #000;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
 }
 
 .options {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: flex-start;
-  justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 button {
-  height: 50px;
-  width: 150px;
-  border-radius: 50px;
+	height: 50px;
+	width: 150px;
+	border-radius: 50px;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 40px;
-  color: rgba(30, 30, 30, 0.6);
+	font-weight: 700;
+	font-size: 40px;
+	color: rgba(30, 30, 30, 0.6);
 }
+
 h1 {
-  font-size: 200px;
-  font-weight: 800;
+	font-size: 200px;
+	font-weight: 800;
 }
 
 h2 {
-  font-weight: 400;
-  font-size: 40px;
+	font-weight: 400;
+	font-size: 40px;
 }
 
 footer {
-  margin: 1em;
+	margin: 1em;
 }
